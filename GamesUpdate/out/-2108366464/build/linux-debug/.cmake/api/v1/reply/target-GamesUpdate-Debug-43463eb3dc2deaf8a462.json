@@ -1,0 +1,463 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "GamesUpdate"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"add_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/root/vcpkg/installed/x64-linux/share/curl/CURLTargets.cmake",
+			"/root/vcpkg/installed/x64-linux/share/curl/CURLConfig.cmake",
+			"/root/vcpkg/installed/x64-linux/share/mongocxx/mongocxx_targets.cmake",
+			"/root/vcpkg/installed/x64-linux/share/mongocxx/mongocxx-config.cmake",
+			"/root/vcpkg/installed/x64-linux/share/bsoncxx/bsoncxx_targets.cmake",
+			"/root/vcpkg/installed/x64-linux/share/bsoncxx/bsoncxx-config.cmake",
+			"/root/vcpkg/installed/x64-linux/share/bson-1.0/bson-targets.cmake",
+			"/root/vcpkg/installed/x64-linux/share/bson-1.0/bson-1.0-config.cmake",
+			"/usr/local/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake",
+			"/root/vcpkg/installed/x64-linux/share/mongoc-1.0/mongoc-targets.cmake",
+			"/root/vcpkg/installed/x64-linux/share/mongoc-1.0/mongoc-1.0-config.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 7
+			},
+			{
+				"file" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 4,
+				"parent" : 12
+			},
+			{
+				"file" : 3,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 60,
+				"parent" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"file" : 6,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 3,
+				"parent" : 17
+			},
+			{
+				"file" : 5,
+				"parent" : 18
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 60,
+				"parent" : 19
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 2,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 21
+			},
+			{
+				"file" : 8,
+				"parent" : 22
+			},
+			{
+				"command" : 4,
+				"file" : 8,
+				"line" : 1,
+				"parent" : 23
+			},
+			{
+				"file" : 7,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 60,
+				"parent" : 25
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 2,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 27
+			},
+			{
+				"file" : 11,
+				"parent" : 28
+			},
+			{
+				"command" : 4,
+				"file" : 11,
+				"line" : 6,
+				"parent" : 29
+			},
+			{
+				"file" : 10,
+				"parent" : 30
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 61,
+				"parent" : 31
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -g -std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "BSONCXX_STATIC"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CURL_STATICLIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "MONGOCXX_STATIC"
+				},
+				{
+					"backtrace" : 33,
+					"define" : "PROJECT_NAME=\"GamesUpdate\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 34,
+					"isSystem" : true,
+					"path" : "/root/vcpkg/installed/x64-linux/include"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "/root/vcpkg/installed/x64-linux/share/rapidjson/../../include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"id" : "GamesUpdate::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "/root/projects/Lurker/GamesUpdate"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/root/projects/Lurker/Building/GamesUpdate/out/install/linux-debug"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/root/vcpkg/installed/x64-linux/debug/lib/libcurl-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/root/vcpkg/installed/x64-linux/debug/lib/libbsoncxx-static.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/root/vcpkg/installed/x64-linux/debug/lib/libmongocxx-static.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libssl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/root/vcpkg/installed/x64-linux/debug/lib/libbsoncxx-static.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/root/vcpkg/installed/x64-linux/debug/lib/libmongoc-static-1.0.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/root/vcpkg/installed/x64-linux/debug/lib/libbson-static-1.0.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/librt.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "/root/vcpkg/installed/x64-linux/debug/lib/libssl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "/root/vcpkg/installed/x64-linux/debug/lib/libcrypto.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "-lresolv",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "/root/vcpkg/installed/x64-linux/debug/lib/libz.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "GamesUpdate",
+	"nameOnDisk" : "GamesUpdate",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "GamesUpdate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Logger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Game.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "CURLing.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MongoDB.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Lurker.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

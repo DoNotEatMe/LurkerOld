@@ -1,0 +1,343 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/linux-debug/CMakeFiles/3.26.0-rc5/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/linux-debug/CMakeFiles/3.26.0-rc5/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/linux-debug/CMakeFiles/3.26.0-rc5/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/curl/CURLConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/curl/CURLConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/FindOpenSSL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/curl/CURLTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/curl/CURLTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/curl/CURLTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bsoncxx/bsoncxx-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bsoncxx/bsoncxx-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bson-1.0/bson-1.0-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bson-1.0/bson-1.0-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bson-1.0/bson-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bson-1.0/bson-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bson-1.0/bson-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bsoncxx/bsoncxx_targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bsoncxx/bsoncxx_targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bsoncxx/bsoncxx_targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/mongocxx/mongocxx-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/mongocxx/mongocxx-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/mongoc-1.0/mongoc-1.0-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/mongoc-1.0/mongoc-1.0-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bson-1.0/bson-1.0-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bson-1.0/bson-1.0-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bson-1.0/bson-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/mongoc-1.0/mongoc-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/mongoc-1.0/mongoc-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/mongoc-1.0/mongoc-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bsoncxx/bsoncxx-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bsoncxx/bsoncxx-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/bsoncxx/bsoncxx_targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/mongocxx/mongocxx_targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/mongocxx/mongocxx_targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/mongocxx/mongocxx_targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/rapidjson/RapidJSONConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/root/vcpkg/installed/x64-linux/share/rapidjson/RapidJSONConfig.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/root/projects/Lurker/Building/ProxyHolder/out/build/linux-debug",
+		"source" : "/root/projects/Lurker/Building/ProxyHolder"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
