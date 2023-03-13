@@ -399,5 +399,5 @@ FodyWeavers.xsd
 
 
 
-*/out/*
-versions/
+/*/out/
+/versions/
