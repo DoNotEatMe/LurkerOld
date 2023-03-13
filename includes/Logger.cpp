@@ -12,6 +12,8 @@
 
 #include <iostream>
 
+std::filesystem::path const Logger::logDir = std::filesystem::absolute("/root/projects/Lurker/log");
+
 Logger::Logger() {
 
     
@@ -160,7 +162,7 @@ void Logger::InsertCount(std::string games, std::string recs, int& Inserted,   i
 void Logger::HttpError(std::string err, long int& code)
 {
     std::ostringstream out;
-    out << ConvertTime(GetTime()) << " $http<<" << " ProxyList " << err << " " << code << std::endl;
+    out << ConvertTime(GetTime()) << " $http<<" << " " << err << " " << code << std::endl;
 
     std::ofstream log(logDir / "httpError_log", std::ios::app);
     log << out.str();
@@ -175,7 +177,7 @@ void Logger::HttpError(std::string err)
 {
         
     std::ostringstream out;
-    out << ConvertTime(GetTime()) << " $http<<" << " ProxyList " << err << std::endl;
+    out << ConvertTime(GetTime()) << " $http<<" << " " << err << std::endl;
 
     std::ofstream log(logDir / "httpError_log", std::ios::app);
     log << out.str();
@@ -190,7 +192,7 @@ void Logger::HttpError(std::string err)
 
 void Logger::Status(std::string msg) {
     std::ostringstream out;
-    out << ConvertTime(GetTime()) << " $sys <<" << " ProxyList " << msg << std::endl;
+    out << ConvertTime(GetTime()) << " $sys <<" << " " << msg << std::endl;
 
     std::ofstream log(logDir / "status_log", std::ios::app);
     log << out.str();
@@ -203,7 +205,7 @@ void Logger::Status(std::string msg) {
 
 void Logger::Status(std::string msg,   int count) {
     std::ostringstream out;
-    out << ConvertTime(GetTime()) << " $sys <<" << " ProxyList " << msg << " " << count << std::endl;
+    out << ConvertTime(GetTime()) << " $sys <<" << " " << msg << " " << count << std::endl;
 
     std::ofstream log(logDir / "status_log", std::ios::app);
     log << out.str();
