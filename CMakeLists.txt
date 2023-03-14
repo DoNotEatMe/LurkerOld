@@ -4,8 +4,6 @@ cmake_minimum_required (VERSION 3.8)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
 #set(CMAKE_CXX_FLAGS "-Wall -Wextra -Wpedantic")
 
 project(Lurker)
@@ -63,6 +61,7 @@ target_include_directories(LurkerIncludes INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/
 
 #	ProxyHolder
 	add_executable(ProxyHolder ProxyHolder/ProxyHolder.cpp
+								includes/CURLing.cpp
 								includes/MongoDB.cpp
 								includes/Logger.cpp)
 
