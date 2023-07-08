@@ -1,8 +1,9 @@
 # Steam Game Database
 
 ## Idea and Work in Progress
-This project aims to create an auto-renewing database that stores information about Steam games for upper analytics and research purposes. It includes the following features:
+This project aims to create an auto-renewing database that stores information about Steam games for upper analytics and research purposes. 
 
+WIP:
 - Collects and stores all reviews for each game
 - Provides a web interface for interaction
 
