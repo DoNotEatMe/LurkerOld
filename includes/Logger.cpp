@@ -279,7 +279,7 @@ void Logger::ExecutionTime(std::string msg) {
 
     std::ostringstream out;
 
-    if(mins > 1 && hours < 1){
+    if(mins >= 1 && hours < 1){
 
         out << ConvertTime(GetTime()) << " $sys <<" << " " << msg << " Execution time " << mins << ":" << secs << std::endl;
     }
@@ -300,6 +300,7 @@ void Logger::ExecutionTime(std::string msg) {
 }
 
 void Logger::SetExecutionTimer() {
+
     start_time = std::chrono::steady_clock::now();
 }
 

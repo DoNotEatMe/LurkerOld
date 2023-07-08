@@ -14,7 +14,7 @@ MongoDB::MongoDB(std::string uri)
 }
 
 MongoDB::~MongoDB() {
-    
+    std::cout << "Mongo Connection closed" << std::endl;
     log.Connection("Connection closed");
 }
 

@@ -222,7 +222,7 @@ void Lurker::AddGameInfo() {
         auto app_id = view["appid"].get_int32();
         std::string appid_string = std::to_string(app_id);
         std::string SteamURL_sting = "https://store.steampowered.com/api/appdetails?appids=" + appid_string;
-        curl.GetCurlFromJson(SteamURL_sting.c_str());
+        curl.GetURL(SteamURL_sting.c_str());
 
         //reading json
         rapidjson::Document document;
@@ -444,7 +444,7 @@ void Lurker::AddGameInfo(std::vector<bsoncxx::document::value>& DocArr) {
         CURLing curl;
         std::string appid_string = std::to_string(doc["appid"].get_int32());
         std::string SteamURL_sting = "https://store.steampowered.com/api/appdetails?appids=" + appid_string;
-        curl.GetCurlFromJson(SteamURL_sting.c_str());
+        curl.GetURL(SteamURL_sting.c_str());
 
         // Parsing json
         rapidjson::Document document;
@@ -881,7 +881,7 @@ void Lurker::InsertReviewByRecID(mongocxx::collection& coll, int& app_id, int64_
     std::string SteamURL_sting = "https://store.steampowered.com/appreviews/" + appid_string + "?json=1" + "&filter=recent&language=all&num_per_page=100&cursor=" + cursor;
     
     CURLing curl;
-    curl.GetCurlFromJson(SteamURL_sting.c_str());
+    curl.GetURL(SteamURL_sting.c_str());
 
     RequestCount++;
     //log.InsertCount("Request count:", RequestCount);
@@ -1126,7 +1126,7 @@ void Lurker::GetParsedJson(int& app_id, std::string cursor, rapidjson::Document&
     std::string appid_string = std::to_string(app_id);
     std::string SteamURL_sting = "https://store.steampowered.com/appreviews/" + appid_string + "?json=1" + "&filter=recent&language=all&num_per_page=100&cursor=" + cursor;
         
-    curl.GetCurlFromJson(SteamURL_sting.c_str());
+    curl.GetURL(SteamURL_sting.c_str());
     RequestCount++;
 
     //rapidjson setup

@@ -1,40 +1,53 @@
 #pragma once
-#include <string>
-
-#include <curl/curl.h>
+#include "IP.h"
 #include "Logger.h"
+#include <curl/curl.h>
+#include <string>
+#include "MongoDB.h"
 
-
-/*
-CURL Setup for Json record
-*/
 class CURLing {
     
-
 private:
+    Logger log;
     CURL* curl;
     CURLcode res;
+    
     std::string readBuffer;
+    std::string ip = "";
+    
     static size_t WriteCallback(void* contents, size_t size, size_t nmemb, void* userp);
 
+    /// curl_easy_setopt with new proxy
+    void setupProxy(CURL* curl, IP* proxy);
+
+    // blacklisting proxy in db
+    void badProxy(std::string& ip, mongocxx::collection& coll);
+
+    // return IP obrect from DB. Contains IP, Port, Protocol, country, response time
+    IP* getProxy(mongocxx::collection& coll);
 
     
-    
-    Logger log;
 
 public:
 
     CURLing();
-    void GetAllGames();
-    void GetCurlFromJson(const char*  linktoparse);
-    void CheckCurl(CURLcode& res, const char* link);
-    std::string GetBuffer();
-    std::string NullStr = "Null";
     
+    /// \brief Get all games from steam
+    void GetAllGames();
+
+    // Get URL contains
+    void GetURL(const char*  link);
+
+    // testing proxy change for 429 avoidance
+    void ProxyTest(std::string& appid, mongocxx::collection& coll);
+    
+    // return cURL result
+    std::string GetBuffer();
+    
+    // Encoding string to use in URL
     std::string url_encode(const std::string& str);
   
-    
-
-    ~CURLing() { curl_easy_cleanup(curl); };
+    ~CURLing() {};
 
 };
+

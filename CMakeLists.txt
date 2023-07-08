@@ -19,6 +19,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 # Add subdirectories for GameUpdate and ProxyHolder projects
 add_subdirectory(GamesUpdate)
 add_subdirectory(ProxyHolder)
+add_subdirectory(Tests)
 
 # Add include directories for self-made classes
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/includes)
@@ -48,7 +49,9 @@ target_include_directories(LurkerIncludes INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/
 								includes/Game.cpp
 								includes/CURLing.cpp
 								includes/MongoDB.cpp
-								includes/Lurker.cpp)
+								includes/Lurker.cpp
+								includes/IP.cpp
+								)
 
 	install(TARGETS GamesUpdate
 			RUNTIME DESTINATION /root/projects/Lurker/GamesUpdate/)
@@ -63,7 +66,9 @@ target_include_directories(LurkerIncludes INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/
 	add_executable(ProxyHolder ProxyHolder/ProxyHolder.cpp
 								includes/CURLing.cpp
 								includes/MongoDB.cpp
-								includes/Logger.cpp)
+								includes/Logger.cpp
+								includes/IP.cpp
+								)
 
 	install(TARGETS ProxyHolder
 			RUNTIME DESTINATION /root/projects/Lurker/ProxyHolder/)
@@ -74,5 +79,20 @@ target_include_directories(LurkerIncludes INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/
 									rapidjson)
 
 
+#	tests
+	add_executable(Tests Tests/Tests.cpp
+							includes/Logger.cpp
+							includes/Game.cpp
+							includes/CURLing.cpp
+							includes/MongoDB.cpp
+							includes/Lurker.cpp
+							includes/IP.cpp)
 
+	install(TARGETS Tests
+			RUNTIME DESTINATION /root/projects/Lurker/Tests/)
+
+	target_link_libraries(Tests PRIVATE CURL::libcurl
+									$<IF:$<TARGET_EXISTS:mongo::bsoncxx_static>,mongo::bsoncxx_static,mongo::bsoncxx_shared>
+									$<IF:$<TARGET_EXISTS:mongo::mongocxx_static>,mongo::mongocxx_static,mongo::mongocxx_shared>
+									rapidjson)
 
