@@ -51,7 +51,7 @@ target_include_directories(LurkerIncludes INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/
 								includes/MongoDB.cpp
 								includes/Lurker.cpp
 								includes/IP.cpp
-								)
+								 "includes/credentials.h")
 
 	install(TARGETS GamesUpdate
 			RUNTIME DESTINATION /root/projects/Lurker/GamesUpdate/)
@@ -68,7 +68,7 @@ target_include_directories(LurkerIncludes INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/
 								includes/MongoDB.cpp
 								includes/Logger.cpp
 								includes/IP.cpp
-								)
+								 "includes/credentials.h")
 
 	install(TARGETS ProxyHolder
 			RUNTIME DESTINATION /root/projects/Lurker/ProxyHolder/)
@@ -86,7 +86,7 @@ target_include_directories(LurkerIncludes INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/
 							includes/CURLing.cpp
 							includes/MongoDB.cpp
 							includes/Lurker.cpp
-							includes/IP.cpp)
+							includes/IP.cpp "includes/credentials.h")
 
 	install(TARGETS Tests
 			RUNTIME DESTINATION /root/projects/Lurker/Tests/)

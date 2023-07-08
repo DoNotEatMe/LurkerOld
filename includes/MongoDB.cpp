@@ -1,6 +1,7 @@
 #include "MongoDB.h"
 #include <mongocxx/exception/operation_exception.hpp>
 #include <mongocxx/exception/logic_error.hpp>
+#include <credentials.h>
 
 MongoDB::MongoDB()
 {
@@ -24,7 +25,7 @@ void MongoDB::Connect()
 {
 
     try {
-        client = mongocxx::client{ mongocxx::uri{"mongodb://Pin:3mZzjmeWy5Q5h2IV6W7uYfZ@81.200.146.75:27017/?authSource=admin"} };
+        client = mongocxx::client{ mongocxx::uri{DBcred} };
     }
     catch (const mongocxx::exception& e) {
         std::cerr << "Error creating connection: " << e.what() << std::endl;
